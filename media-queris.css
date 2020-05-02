@@ -1,0 +1,119 @@
+@media screen and (max-width: 1000px) {
+    .three-photos {
+        display: block;
+        width: 100%;
+    }
+    .photo-text {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .photo {
+        width: 49%;
+    }
+    .overlay {
+        left: 50%;
+        background-color: #efefef;
+        width: 49%;
+        height: 100%;
+    }
+    .light {
+        margin-bottom: 5px;
+    }
+}
+@media screen and (max-width: 750px) {
+    header {
+        display: block;
+        text-align: center;
+    }
+    nav {
+        display: none;
+        justify-content: center;
+        flex-direction: column;
+    }
+    nav a {
+        align-self: auto;
+    }
+    .show {
+        display: block;
+        align-self: auto;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: small;
+        font-weight: 600;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 30px;
+        margin: 5px;
+        background: #1f589f;
+    }
+    .photo-text {
+        position: static;
+        display: block;
+        width: 100%;
+        background-color: #c3c3c3;
+    }
+    .photo {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .overlay {
+        position: static;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .overlay:hover{
+        background-color: #c3c3c3;
+    }
+    .text {
+        position: static;
+    }
+}
+@media screen and (max-width: 650px) {
+    .logo-video {
+        top: 10%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .logo-video img {
+        width: 50%;
+        height: 50%;
+    }
+}
+@media screen and (max-width: 500px) {
+    header {
+        padding: 20px 50px;
+    }
+    .first-text {
+        padding: 50px 50px;
+    }
+    #second {
+        margin: 40px 50px;
+    }
+    #idea {
+        padding: 20px 50px;
+    }
+    .about-cssani {
+        padding: 50px;
+    }
+    .logo-video{
+        left: 50px;
+        right: 50px;
+    }
+}
+@media screen and (max-width: 350px) {
+    header img {
+        width: 70%;
+        height: 70%;
+    }
+    .first-text {
+        padding: 20px 20px;
+    }
+    .logo-video{
+        left: 20px;
+        right: 20px;
+    }
+    .logo-video h3, .logo-video p {
+        margin: 0;
+    }
+}
